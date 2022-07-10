@@ -7,7 +7,7 @@ describe('Linked list tests', () => {
 
             linkedList.append(1).append(2).append(3);
 
-            expect(linkedList.linkedListValues()).toBe([1, 2, 3]);
+            expect(linkedList.values()).toBe([1, 2, 3]);
         });
     })
 })
